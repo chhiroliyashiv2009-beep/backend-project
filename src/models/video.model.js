@@ -15,7 +15,7 @@ const videoSchema = new Schema(
       type: String,
       required: true,
     },
-    decsription: {
+    description: {
       type: String,
       required: true,
     },
@@ -28,7 +28,7 @@ const videoSchema = new Schema(
       default: 0,
     },
     isPublished: {
-      tupe: Boolean,
+      type: Boolean,
       default: true,
     },
     owner: {
